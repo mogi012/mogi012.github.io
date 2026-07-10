@@ -2,12 +2,13 @@
 
 export const profile = {
   name: "Jinmok",
-  role: "Software Engineer",
-  tagline: "코드로 아이디어를 만듭니다.",
+  role: "Game Developer",
+  tagline: "코드와 비주얼로 아이디어를 만듭니다.",
   location: "Seoul, South Korea",
   email: "jinmok0317@gmail.com",
-  about: `안녕하세요, 문제를 해결하는 것을 좋아하는 개발자입니다. 사용자 경험과 코드 품질 모두를
-중요하게 생각하며, 새로운 기술을 배우고 실제 프로젝트에 적용하는 과정을 즐깁니다.`,
+  about: `안녕하세요, 게임과 인터랙티브 경험을 만드는 것을 좋아하는 개발자입니다. C/C++와 언리얼 엔진으로
+게임을 만들고, 포토샵·일러스트레이터·애프터이펙트로 비주얼 작업까지 직접 다룹니다. 코드와
+비주얼 양쪽을 오가며 아이디어를 실제로 눈에 보이는 결과물로 만드는 과정을 즐깁니다.`,
   highlights: [
     { label: "Years Coding", value: "3+" },
     { label: "Projects Shipped", value: "10+" },
@@ -53,7 +54,11 @@ export const projects: Project[] = [
 export const skills: { category: string; items: string[] }[] = [
   {
     category: "Languages",
-    items: ["TypeScript", "JavaScript", "Python", "Java"],
+    items: ["C", "C++", "TypeScript", "JavaScript", "Python", "Java"],
+  },
+  {
+    category: "Game Dev",
+    items: ["Unreal Engine"],
   },
   {
     category: "Frontend",
@@ -62,6 +67,10 @@ export const skills: { category: string; items: string[] }[] = [
   {
     category: "Backend",
     items: ["Node.js", "Express", "FastAPI", "PostgreSQL"],
+  },
+  {
+    category: "Creative Tools",
+    items: ["Photoshop", "Illustrator", "After Effects"],
   },
   {
     category: "Tools",
