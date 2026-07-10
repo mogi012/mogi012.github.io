@@ -10,7 +10,7 @@ export default function Projects() {
         <Reveal>
           <p className="eyebrow">Projects</p>
           <h2 style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)" }}>
-            제가 만든 것들
+            Portfolio
           </h2>
         </Reveal>
 

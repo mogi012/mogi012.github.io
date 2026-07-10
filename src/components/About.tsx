@@ -15,7 +15,7 @@ export default function About() {
         <div>
           <Reveal>
             <p className="eyebrow">About</p>
-            <h2 className="about-title">더 나은 경험을 만드는 데 집중합니다.</h2>
+            <h2 className="about-title">나는 파라파라나 추고 있어야겠다..</h2>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="about-text">{profile.about}</p>

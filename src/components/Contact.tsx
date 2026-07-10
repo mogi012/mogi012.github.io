@@ -10,7 +10,7 @@ export default function Contact() {
         <Reveal>
           <p className="eyebrow">Contact</p>
           <h2 className="contact-title">
-            새로운 프로젝트, <span className="accent">함께</span> 만들어볼까요?
+            연락 <span className="accent">오이데~</span>
           </h2>
           <p className="contact-sub">
             협업 제안이나 궁금한 점이 있다면 언제든 편하게 연락 주세요.

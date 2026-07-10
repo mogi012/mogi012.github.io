@@ -11,7 +11,7 @@ export default function Skills() {
         <Reveal>
           <p className="eyebrow">Skills</p>
           <h2 style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)" }}>
-            사용하는 기술들
+            Skills
           </h2>
         </Reveal>
 
