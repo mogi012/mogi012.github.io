@@ -3,7 +3,7 @@
 export const profile = {
   name: "하지 마시고",
   role: "Game Developer",
-  tagline: "진목아 진목아~ 왜요 쌤 왜요 쌤~",
+  tagline: "여기까지 오느라 수고했고 내가 신기한 거 하나 보여줄게",
   location: "Seoul, South Korea",
   email: "jinmok0317@gmail.com",
   about: `빰빰 빠람~ 빰빰빰 빠라밤~`,
@@ -32,9 +32,9 @@ export const projects: Project[] = [
     repo: "#",
   },
   {
-    title: "냐냐냥!!!!",
+    title: "내 프로젝트가 궁금하다면",
     description:
-      "나는 사실상 개발자가 아니라 개발이다 개발",
+      "냐냐냥!!!!",
     tags: ["Next.js", "Tailwind"],
     link: "#",
     repo: "#",
