@@ -105,7 +105,7 @@ export const skills: { category: string; items: Skill[] }[] = [
 ];
 
 export const socials = [
-  { label: "GitHub", href: "https://github.com/jinmok0317-hue" },
+  { label: "GitHub", href: "https://github.com/mogi012" },
   { label: "Email", href: "mailto:jinmok0317@gmail.com" },
   { label: "LinkedIn", href: "#" },
 ];
