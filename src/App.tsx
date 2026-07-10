@@ -1,3 +1,4 @@
+import Loader from "./components/Loader";
 import Cursor from "./components/Cursor";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
@@ -10,6 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+      <Loader />
       <div className="grain" />
       <Cursor />
       <Nav />

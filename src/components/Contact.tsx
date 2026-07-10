@@ -8,9 +8,7 @@ export default function Contact() {
     <section id="contact" className="section contact">
       <div className="container">
         <Reveal>
-          <p className="eyebrow" style={{ justifyContent: "center" }}>
-            Contact
-          </p>
+          <p className="eyebrow">Contact</p>
           <h2 className="contact-title">
             새로운 프로젝트, <span className="accent">함께</span> 만들어볼까요?
           </h2>

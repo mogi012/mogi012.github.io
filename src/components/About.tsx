@@ -7,7 +7,9 @@ export default function About() {
     <section id="about" className="section">
       <div className="container about-grid">
         <Reveal>
-          <div className="about-photo">Photo</div>
+          <div className="about-photo corner-brackets corner-brackets--static">
+            Photo
+          </div>
         </Reveal>
 
         <div>

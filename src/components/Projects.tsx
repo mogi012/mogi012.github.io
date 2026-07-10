@@ -17,7 +17,7 @@ export default function Projects() {
         <div className="projects-list">
           {projects.map((project, i) => (
             <Reveal key={project.title} delay={i * 0.08}>
-              <div className="project-row">
+              <div className="project-row corner-brackets corner-brackets--hover">
                 <span className="project-index">
                   {String(i + 1).padStart(2, "0")}
                 </span>

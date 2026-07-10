@@ -51,30 +51,59 @@ export const projects: Project[] = [
   },
 ];
 
-export const skills: { category: string; items: string[] }[] = [
+// level: 1~5. 실제 숙련도에 맞게 자유롭게 조정하세요.
+export type Skill = { name: string; level: number };
+
+export const skills: { category: string; items: Skill[] }[] = [
   {
     category: "Languages",
-    items: ["C", "C++", "TypeScript", "JavaScript", "Python", "Java"],
+    items: [
+      { name: "C", level: 4 },
+      { name: "C++", level: 5 },
+      { name: "TypeScript", level: 4 },
+      { name: "JavaScript", level: 4 },
+      { name: "Python", level: 3 },
+      { name: "Java", level: 3 },
+    ],
   },
   {
     category: "Game Dev",
-    items: ["Unreal Engine"],
+    items: [{ name: "Unreal Engine", level: 5 }],
   },
   {
     category: "Frontend",
-    items: ["React", "Next.js", "Vite", "Tailwind CSS"],
+    items: [
+      { name: "React", level: 4 },
+      { name: "Next.js", level: 3 },
+      { name: "Vite", level: 3 },
+      { name: "Tailwind CSS", level: 4 },
+    ],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "FastAPI", "PostgreSQL"],
+    items: [
+      { name: "Node.js", level: 3 },
+      { name: "Express", level: 3 },
+      { name: "FastAPI", level: 2 },
+      { name: "PostgreSQL", level: 2 },
+    ],
   },
   {
     category: "Creative Tools",
-    items: ["Photoshop", "Illustrator", "After Effects"],
+    items: [
+      { name: "Photoshop", level: 3 },
+      { name: "Illustrator", level: 3 },
+      { name: "After Effects", level: 3 },
+    ],
   },
   {
     category: "Tools",
-    items: ["Git", "Docker", "Figma", "Notion"],
+    items: [
+      { name: "Git", level: 4 },
+      { name: "Docker", level: 2 },
+      { name: "Figma", level: 3 },
+      { name: "Notion", level: 4 },
+    ],
   },
 ];
 

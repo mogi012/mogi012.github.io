@@ -2,6 +2,8 @@ import { skills } from "../data/content";
 import Reveal from "./Reveal";
 import "./Skills.css";
 
+const MAX_LEVEL = 5;
+
 export default function Skills() {
   return (
     <section id="skills" className="section">
@@ -16,11 +18,21 @@ export default function Skills() {
         <div className="skills-grid">
           {skills.map((group, i) => (
             <Reveal key={group.category} delay={i * 0.08}>
-              <div className="skill-card">
+              <div className="skill-card corner-brackets corner-brackets--static">
                 <h3>{group.category}</h3>
                 <div className="skill-items">
                   {group.items.map((item) => (
-                    <span key={item}>{item}</span>
+                    <div className="skill-item" key={item.name}>
+                      <span className="skill-name">{item.name}</span>
+                      <span
+                        className="skill-pips"
+                        aria-label={`${item.name} Lv.${item.level}`}
+                      >
+                        {Array.from({ length: MAX_LEVEL }, (_, idx) => (
+                          <i key={idx} className={idx < item.level ? "on" : ""} />
+                        ))}
+                      </span>
+                    </div>
                   ))}
                 </div>
               </div>
