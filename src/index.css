@@ -82,6 +82,12 @@ h3 {
   min-height: 100svh;
 }
 
+main,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
 /* layout helpers */
 .container {
   width: 100%;

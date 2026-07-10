@@ -1,4 +1,5 @@
 import Loader from "./components/Loader";
+import Background3D from "./components/Background3D";
 import Cursor from "./components/Cursor";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Loader />
+      <Background3D />
       <div className="grain" />
       <Cursor />
       <Nav />
